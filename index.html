@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+	<link rel="icon" type="image/png" href="img/icono.png">
+
+</head>
+<body>
+	<h1>TEST DE DEPORTES</h1>
+	
+	<div id="login" class="div-flex">
+		<div>
+			<h2>Registre sus Datos</h2>
+			<form id="form-login">
+				<label for="input-usuario">Nombres y Apellidos: </label><br>
+				<input type="text" id="input-usuario" size="40" /><br>
+				<button value="Continuar" id="boton-login">Continuar</button>
+			</form>
+		</div>
+		<picture>
+			<img src="img/img.jpg" class="img-login">
+		</picture>
+	</div>
+	<div id="preguntas" class="div-flex">
+		
+		<div class="slider">
+			<h3>
+				<span class="quiz">QUIZ</span> <span class="numero">1</span> Selección multiple unica respuesta
+			</h3>
+			<p>¿De que deporte es el kemari uno de los principales antecesores?:</p>
+
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-1" id="pregunta-1-1" value="1"><span class="check"></span><label for="pregunta-1-1"> Fútbol</label></li>
+			  		<li><input type="radio" name="pregunta-1" id="pregunta-1-2" value="2"><span class="check"></span><label for="pregunta-1-2"> Ténis</label></li>
+			  		<li><input type="radio" name="pregunta-1" id="pregunta-1-3" value="3"><span class="check"></span><label for="pregunta-1-3"> Rugby</label></li>
+			  		<li><input type="radio" name="pregunta-1" id="pregunta-1-4" value="4"><span class="check"></span><label for="pregunta-1-4"> Karate</label></li>
+			  	</ol>
+			</div>
+			<div class="boton">
+				<button id="evaluar-1">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-1" />
+				<img src="img/error.png" id="img-resultado-error-1" />
+			</div>
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">2</span> Selección multiple unica respuesta</h3>
+			<p>¿Cuántas finales del mundo jugó la Selección Argentina de fútbol?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-2" id="pregunta-2-1" value="1"><span class="check"></span><label for="pregunta-2-1"> Cinco</label></li>
+			  		<li><input type="radio" name="pregunta-2" id="pregunta-2-2" value="2"><span class="check"></span><label for="pregunta-2-2"> Seis</label></li>
+			  		<li><input type="radio" name="pregunta-2" id="pregunta-2-3" value="3"><span class="check"></span><label for="pregunta-2-3"> Cuatro</label></li>
+			  		<li><input type="radio" name="pregunta-2" id="pregunta-2-4" value="4"><span class="check"></span><label for="pregunta-2-4"> Tres</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-2">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-2" />
+				<img src="img/error.png" id="img-resultado-error-2" />
+			</div>
+		</div>
+		
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">3</span> Selección multiple unica respuesta</h3>
+			<p>¿Quién marcó el gol 3.500 en Liga del Atlético de Madrid?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-3" id="pregunta-3-1" value="1"><span class="check"></span><label for="pregunta-3-1"> Zinedine Zidane</label></li>
+			  		<li><input type="radio" name="pregunta-3" id="pregunta-3-2" value="2"><span class="check"></span><label for="pregunta-3-2"> Christian Vieri</label></li>
+			  		<li><input type="radio" name="pregunta-3" id="pregunta-3-3" value="3"><span class="check"></span><label for="pregunta-3-3"> Luka Modric</label></li>
+			  		<li><input type="radio" name="pregunta-3" id="pregunta-3-4" value="4"><span class="check"></span><label for="pregunta-3-4"> Adrián Escudero</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-3">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-3" />
+				<img src="img/error.png" id="img-resultado-error-3" />
+			</div>
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">4</span> Selección multiple unica respuesta</h3>
+			<p>¿Cuál es el estilo de natación más rápido?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-4" id="pregunta-4-1" value="1"><span class="check"></span><label for="pregunta-4-1"> Crol</label></li>
+			  		<li><input type="radio" name="pregunta-4" id="pregunta-4-2" value="2"><span class="check"></span><label for="pregunta-4-2"> Espalda</label></li>
+			  		<li><input type="radio" name="pregunta-4" id="pregunta-4-3" value="3"><span class="check"></span><label for="pregunta-4-3"> Mariposa</label></li>
+			  		<li><input type="radio" name="pregunta-4" id="pregunta-4-4" value="4"><span class="check"></span><label for="pregunta-4-4"> Pecho</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-4">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-4" />
+				<img src="img/error.png" id="img-resultado-error-4" />
+			</div>			
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">5</span> Selección multiple unica respuesta</h3>
+			<p>¿Cuántos jugadores componen un equipo de rugby?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-5" id="pregunta-5-1" value="1"><span class="check"></span><label for="pregunta-5-1"> 11</label></li>
+			  		<li><input type="radio" name="pregunta-5" id="pregunta-5-2" value="2"><span class="check"></span><label for="pregunta-5-2"> 12</label></li>
+			  		<li><input type="radio" name="pregunta-5" id="pregunta-5-3" value="3"><span class="check"></span><label for="pregunta-5-3"> 25</label></li>
+			  		<li><input type="radio" name="pregunta-5" id="pregunta-5-4" value="4"><span class="check"></span><label for="pregunta-5-4"> 15</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-5">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-5" />
+				<img src="img/error.png" id="img-resultado-error-5" />
+			</div>					
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">6</span> Selección multiple unica respuesta</h3>
+			<p>¿En qué país se inventó el voleibol?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-6" id="pregunta-6-1" value="1"><span class="check"></span><label for="pregunta-6-1"> Estados Unidos</label></li>
+			  		<li><input type="radio" name="pregunta-6" id="pregunta-6-2" value="2"><span class="check"></span><label for="pregunta-6-2"> Gran Bretaña</label></li>
+			  		<li><input type="radio" name="pregunta-6" id="pregunta-6-3" value="3"><span class="check"></span><label for="pregunta-6-3"> Rusia</label></li>
+			  		<li><input type="radio" name="pregunta-6" id="pregunta-6-4" value="4"><span class="check"></span><label for="pregunta-6-4"> Francia</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-6">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-6" />
+				<img src="img/error.png" id="img-resultado-error-6" />
+			</div>
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">7</span> Selección multiple unica respuesta</h3>
+			<p>¿Qué selección acumula mayor cantidad de expulsados en  mundiales de fútbol?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-7" id="pregunta-7-1" value="1"><span class="check"></span><label for="pregunta-7-1"> Brasil</label></li>
+			  		<li><input type="radio" name="pregunta-7" id="pregunta-7-2" value="2"><span class="check"></span><label for="pregunta-7-2"> Argentina</label></li>
+			  		<li><input type="radio" name="pregunta-7" id="pregunta-7-3" value="3"><span class="check"></span><label for="pregunta-7-3"> Italia</label></li>
+			  		<li><input type="radio" name="pregunta-7" id="pregunta-7-4" value="4"><span class="check"></span><label for="pregunta-7-4"> Camerún</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-7">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-7" />
+				<img src="img/error.png" id="img-resultado-error-7" />
+			</div>			
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">8</span> Selección multiple unica respuesta</h3>
+			<p>¿Quién inventó el arte marcial llamado Jeet Kune Do?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-8" id="pregunta-8-1" value="1"><span class="check"></span><label for="pregunta-8-1"> Kato Mimoko</label></li>
+			  		<li><input type="radio" name="pregunta-8" id="pregunta-8-2" value="2"><span class="check"></span><label for="pregunta-8-2"> David Carradine</label></li>
+			  		<li><input type="radio" name="pregunta-8" id="pregunta-8-3" value="3"><span class="check"></span><label for="pregunta-8-3"> Bruce Lee</label></li>
+			  		<li><input type="radio" name="pregunta-8" id="pregunta-8-4" value="4"><span class="check"></span><label for="pregunta-8-4"> Ninguna es correcta</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-8">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-8" />
+				<img src="img/error.png" id="img-resultado-error-8" />
+			</div>				
+		</div>
+
+		<div class="slider">
+			<h3><span class="quiz">QUIZ</span> <span class="numero">9</span> Selección multiple unica respuesta</h3>
+			<p>¿Cuál es el clásico rival del Flamengo (BRA)?</p>
+			<div class="preguntas">
+				<ol>
+			  		<li><input type="radio" name="pregunta-9" id="pregunta-9-1" value="1"><span class="check"></span><label for="pregunta-9-1"> Corinthians</label></li>
+			  		<li><input type="radio" name="pregunta-9" id="pregunta-9-2" value="2"><span class="check"></span><label for="pregunta-9-2"> Palmeiras</label></li>
+			  		<li><input type="radio" name="pregunta-9" id="pregunta-9-3" value="3"><span class="check"></span><label for="pregunta-9-3"> Cruzeiro</label></li>
+			  		<li><input type="radio" name="pregunta-9" id="pregunta-9-4" value="4"><span class="check"></span><label for="pregunta-9-4"> São Paulo</label></li>
+			  	</ol>
+			</div>
+	
+			<div class="boton">
+				<button id="evaluar-9">Evaluar</button>
+				<img src="img/correcto.png" id="img-resultado-correcto-9" />
+				<img src="img/error.png" id="img-resultado-error-9" />
+			</div>	
+		</div>
+		<div id="div-resultados">
+			<p>
+				Sus Respuestas fueron guardadas.
+			</p>
+		</div>
+		<div class="text-block">
+			
+			<h3>Bienvenido <span id="usuario"></span></h3>
+			
+			<div class="conten-tablero">
+				<table class="tablero">
+					<tr>
+						<th colspan="3">PREGUNTAS</th>
+					</tr>
+					<tr>
+						<td><a onclick="currentSlide(1)" class="dot" id="cuadro-1">1</a></td>
+						<td><a onclick="currentSlide(2)" class="dot" id="cuadro-2">2</a></td>
+						<td><a onclick="currentSlide(3)" class="dot" id="cuadro-3">3</a></td>						
+					</tr>
+					<tr>
+						<td><a onclick="currentSlide(4)" class="dot" id="cuadro-4">4</a></td>
+						<td><a onclick="currentSlide(5)" class="dot" id="cuadro-5">5</a></td>
+						<td><a onclick="currentSlide(6)" class="dot" id="cuadro-6">6</a></td>						
+					</tr>
+					<tr>
+						<td><a onclick="currentSlide(7)" class="dot" id="cuadro-7">7</a></td>
+						<td><a onclick="currentSlide(8)" class="dot" id="cuadro-8">8</a></td>
+						<td><a onclick="currentSlide(9)" class="dot" id="cuadro-9">9</a></td>
+					</tr>
+				</table>
+				
+				<div class="nota">
+					Preguntas contestadas: <span id="contestadas">0</span>
+				</div>
+				<div class="div-progress">
+					<progress value="0" max="9" id="progreso"></progress>
+				</div>
+				<div class="nota">Calificaci&oacute;n: <span id="nota"></span></div>
+				<p id="contador-preguntas">Pregunta <span id="actual">1</span>/<span>9</span></p>
+
+			</div>
+			<div id="botones">
+
+				<a class="anterior" onclick="plusSlides(-1)">&#10094; Anterior</a>
+				<a class="siguiente" onclick="plusSlides(1)">Siguiente &#10095;</a>
+
+			</div>
+		</div>
+			
+				
+	</div>	
+	
+	<script type="text/javascript" src="js/function.js"></script>
+
+</body>
+</html>
